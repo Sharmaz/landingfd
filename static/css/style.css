@@ -1,3 +1,11 @@
+.Footer {
+  background: #4e4e4e;
+}
+.Header {
+  background: #ccc;
+  color: #fff;
+}
 .Menu {
   background: #4e4e4e;
+  postion: sticky;
 }
