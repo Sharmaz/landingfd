@@ -1,3 +1,23 @@
 .Menu
 	background #4E4E4E
+	display flex
+	flex-direction row
+	flex-wrap wrap
+	justify-content space-between
 	postion sticky
+	&-logo
+		margin .5rem
+	&-image
+		width 150px
+	&-button
+		background none
+		border 2px solid #F73B5C
+		border-radius 3px
+		color #F73B5C
+		font-size 1rem
+		margin 1rem
+@media screen and (min-width: 768px)
+	.Menu-image
+		width 200px
+	.Menu-button
+		font-size 1.5rem
