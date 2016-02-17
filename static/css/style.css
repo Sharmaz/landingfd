@@ -1,3 +1,15 @@
+@font-face {
+  font-family: 'Varela';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Varela'), url("../fonts/Varela-Regular.ttf") format('truetype');
+}
+@font-face {
+  font-family: 'Inconsolata';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Inconsolata'), url("../fonts/Inconsolata-Regular.ttf") format('truetype');
+}
 .Footer {
   background: #4e4e4e;
   text-align: center;
