@@ -44,6 +44,9 @@
   margin: 1rem;
   padding: 0.5rem 0.7rem;
 }
+.Header-button:hover {
+  background: #e52d47;
+}
 @media screen and (min-width: 768px) {
   .Header {
     height: 650px;
@@ -103,4 +106,8 @@ html {
   color: #f73b5c;
   font-size: 1rem;
   margin: 1rem;
+}
+.Menu-button:hover {
+  background: #f73b5c;
+  color: #fff;
 }

@@ -2,7 +2,7 @@
 html(lang="es")
 head
 	meta(charset="UTF-8")
-	meta(name="viewport", content="width=device-width, initial-sacle=1.0" )
+	meta(name="viewport", content="width=device-width, initial-scale=1.0" )
 	link(rel="stylesheet", href="../static/css/normalize.css")
 	link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Varela" type="text/css")
 	link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Inconsolata" type="text/css")
@@ -14,4 +14,5 @@ body
 	include ./header/template.jade
 	include ./footer/template.jade
 	script(src="https://code.jquery.com/jquery-2.2.0.min.js")
-	
+	script(type="text/javascript", src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js", data-dojo-config="usePlainJson: true, isDebug: false")
+	script(src="../static/js/suscribe.js")
